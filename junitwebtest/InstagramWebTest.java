@@ -105,7 +105,9 @@ public class InstagramWebTest {
 		//r.keyRelease(KeyEvent.VK_WINDOWS);
 		
 		//Wait<WebDriver> w= new FluentWait<WebDriver>(driver).withTimeout(50,TimeUnit.SECONDS);
-		//driver.quit();
+		Date d= new Date();
+		System.out.println(d);
+		driver.quit();
 
 	}
 }
